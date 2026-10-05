@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <application
+        android:allowBackup="false"
+        android:label="OS4状态栏显示秒"
+        android:supportsRtl="true">
+
+        <meta-data
+            android:name="xposedmodule"
+            android:value="true" />
+
+        <meta-data
+            android:name="xposeddescription"
+            android:value="澎湃OS4状态栏时钟显示秒。作者Deepseek、b站@z7ui" />
+
+        <meta-data
+            android:name="xposedminversion"
+            android:value="54" />
+
+    </application>
+
+</manifest>
